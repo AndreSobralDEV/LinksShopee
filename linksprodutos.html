@@ -23,16 +23,18 @@
         }
         .product-list {
             text-align: left;
+            list-style-type: none; /* Remove bullets */
+            padding: 0;
         }
-        .product {
+        .product-list li {
             margin-bottom: 10px;
         }
-        .product a {
+        .product-list a {
             text-decoration: none;
             color: #ff6600;
             font-weight: bold;
         }
-        .product a:hover {
+        .product-list a:hover {
             color: #ff3300;
         }
     </style>
@@ -41,27 +43,24 @@
     <div class="container">
         <h1>Links dos Produtos</h1>
 
-        <div class="product-list">
-            <!-- Produto 1 com link -->
-            <div class="product">Produto 0001 - <a href="https://s.shopee.com.br/3flaqmOtvb" target="_blank">Filtro de Café Inox</a>
-            </div>
-            <div class="product">Produto 0002 - <a href="https://s.shopee.com.br/7KetDYrzhH" target="_blank">Kit De Escova De Limpeza De Teclado 7 Em 1</a></div>
-            <div class="product">Produto 0003 - <a href="https://s.shopee.com.br/10kpgQlEg0" target="_blank">Mini Processador Elétrico</a></div>
-            <div class="product">Produto 0004 - <a href="https://s.shopee.com.br/AUbuzz4FLg" target="_blank">Cortador Multi Fatiador</a></div>
-            <div class="product">Produto 0005 - <a href="https://s.shopee.com.br/A9z4dAicEl" target="_blank">Cortador Ralador Fatiador</a></div>
-            <div class="product">Produto 0006 - <a href="https://s.shopee.com.br/8KXQRv41T6" target="_blank">Ralador Fatiador Cortador De Legumes Verduras Frutas Multifuncional</a></div>
-            <div class="product">Produto 0007 - <a href="https://s.shopee.com.br/2VZdVHKI89" target="_blank">Refrigerador De Ar Ventilador Umidificador Portátil</a></div>
-            <div class="product">Produto 0008 - <a href="https://s.shopee.com.br/4pxYHjgZD8" target="_blank">Mini Umidificador Difusor Aromatizador</a></div>
-            <div class="product">Produto 0009 - <a href="https://s.shopee.com.br/7ALT4Ml3vR" target="_blank">Calculadora Digital Bloco De Anotações</a></div>
-            <div class="product">Produto 0010 - <a href="https://s.shopee.com.br/AKIUqQgHhR" target="_blank">Escova Eletrica de Limpeza 9 em 1</a></div>
-            <div class="product">Produto 0011 - <a href="https://s.shopee.com.br/1qJwv4v8i3" target="_blank">500 Ml Garrafa Térmica Inox Inteligente</a></div>
-            <div class="product">Produto 0012 - <a href="https://s.shopee.com.br/8AE0Sw5rA5" target="_blank">Luminária Abajur de Mesa LED</a></div>
-            <div class="product">Produto 0013 - <a href="https://s.shopee.com.br/8zn7SZm2R6" target="_blank">Luminária De Mesa Recarregável</a></div>
-            <div class="product">Produto 0014 - <a href="https://s.shopee.com.br/6picshek0P" target="_blank">Relógio Masculino Digital De Luxo À Prova D'Água</a></div>
-            <div class="product">Produto 0015 - <a href="https://s.shopee.com.br/9pMESPJjHy" target="_blank">Amolador Afiador De Facas Em Aço Inox</a></div>
+        <ul class="product-list">
+            <li>Produto 0001 - <a href="https://s.shopee.com.br/3flaqmOtvb" target="_blank">Filtro de Café Inox</a></li>
+            <li>Produto 0002 - <a href="https://s.shopee.com.br/7KetDYrzhH" target="_blank">Kit De Escova De Limpeza De Teclado 7 Em 1</a></li>
+            <li>Produto 0003 - <a href="https://s.shopee.com.br/10kpgQlEg0" target="_blank">Mini Processador Elétrico</a></li>
+            <li>Produto 0004 - <a href="https://s.shopee.com.br/AUbuzz4FLg" target="_blank">Cortador Multi Fatiador</a></li>
+            <li>Produto 0005 - <a href="https://s.shopee.com.br/A9z4dAicEl" target="_blank">Cortador Ralador Fatiador</a></li>
+            <li>Produto 0006 - <a href="https://s.shopee.com.br/8KXQRv41T6" target="_blank">Ralador Fatiador Cortador De Legumes Verduras Frutas Multifuncional</a></li>
+            <li>Produto 0007 - <a href="https://s.shopee.com.br/2VZdVHKI89" target="_blank">Refrigerador De Ar Ventilador Umidificador Portátil</a></li>
+            <li>Produto 0008 - <a href="https://s.shopee.com.br/4pxYHjgZD8" target="_blank">Mini Umidificador Difusor Aromatizador</a></li>
+            <li>Produto 0009 - <a href="https://s.shopee.com.br/7ALT4Ml3vR" target="_blank">Calculadora Digital Bloco De Anotações</a></li>
+            <li>Produto 0010 - <a href="https://s.shopee.com.br/AKIUqQgHhR" target="_blank">Escova Eletrica de Limpeza 9 em 1</a></li>
+            <li>Produto 0011 - <a href="https://s.shopee.com.br/1qJwv4v8i3" target="_blank">500 Ml Garrafa Térmica Inox Inteligente</a></li>
+            <li>Produto 0012 - <a href="https://s.shopee.com.br/8AE0Sw5rA5" target="_blank">Luminária Abajur de Mesa LED</a></li>
+            <li>Produto 0013 - <a href="https://s.shopee.com.br/8zn7SZm2R6" target="_blank">Luminária De Mesa Recarregável</a></li>
+            <li>Produto 0014 - <a href="https://s.shopee.com.br/6picshek0P" target="_blank">Relógio Masculino Digital De Luxo À Prova D'Água</a></li>
+            <li>Produto 0015 - <a href="https://s.shopee.com.br/9pMESPJjHy" target="_blank">Amolador Afiador De Facas Em Aço Inox</a></li>
+        </ul>
 
-
-        </div>
     </div>
 </body>
 </html>
